@@ -1,0 +1,621 @@
+﻿
+@charset "utf-8";
+.query {
+    line-height: 24px;
+    margin: 10px auto 5px;
+    padding: 5px 0;
+    width: 98%;
+}
+.query ul {
+    padding-left: 20px;
+}
+.query ul li {
+    float: left;
+    vertical-align: middle;
+}
+.textwarning {
+    color: #fe0053;
+}
+.query-table {
+}
+.query-table td {
+    line-height: 22px;
+    padding: 2px;
+    vertical-align: middle;
+}
+input[type="text"] {
+    background-color: #fff;
+    border-color: #adadad #eee #eee #adadad;
+    border-style: solid;
+    border-width: 1px;
+    color: #999;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 3px;
+}
+input[type="text"]:focus {
+    background-color: #f1fafe;
+    border-color: #6bc0f3;
+    color: #3b3b3b;
+}
+.query p {
+    border-bottom: 1px solid #cccccc;
+    line-height: 20px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+}
+.page-num {
+    margin: 0 auto 5px;
+    position: relative;
+    text-align: right;
+    width: 98%;
+}
+.page-num .pagebtn {
+    margin-top: 5px;
+    position: absolute;
+}
+.page-num p {
+    padding-top: 5px;
+}
+.page-num span {
+    color: #f00;
+}
+.page-num button {
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    height: 20px;
+    line-height: 20px;
+    width: 40px;
+}
+.page-num button:hover {
+    background-color: #ebebeb;
+}
+.page-num1 {
+    margin: 5px 0;
+    position: relative;
+    text-align: right;
+    width: 800px;
+}
+.page-num1 .pagebtn {
+    margin-top: 5px;
+    position: absolute;
+}
+.page-num1 p {
+    padding-top: 5px;
+}
+.page-num1 span {
+    color: #f00;
+}
+.page-num1 button {
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    height: 20px;
+    line-height: 20px;
+    width: 40px;
+}
+.page-num1 button:hover {
+    background-color: #ebebeb;
+}
+.page-line input[type="submit"] {
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    height: 20px;
+    line-height: 20px;
+    width: 40px;
+}
+.page-line input[type="submit"]:hover {
+    background-color: #ddd;
+}
+.query-result {
+    margin: 0 auto 5px;
+    width: 98%;
+	
+}
+.query-result-border{
+	border-left:2px solid #3CC;
+	border-right:2px solid #3CC;
+	border-bottom:2px solid #3CC;
+	padding:20px 0px ;
+	width:98%;
+	margin-top:-12px;
+	}
+.flot{
+	float:left;
+	}
+.line{
+	 background: url("http://img.517na.com/common/inter/img/dotline.gif") repeat-x scroll left bottom transparent;
+	 height:20px;
+	 }
+.query-result em {
+    color: #999;
+    font-size: 11px;
+    font-style: normal;
+}
+.info-table {
+}
+.info-table .table-header {
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding: 9px 3px;
+}
+.info-table tr:hover {
+    background-color: #f5f5f5;
+}
+.info-table th {
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    font-weight: bold;
+    padding: 5px 3px;
+}
+.info-table td {
+    border-bottom: 1px solid #ddd;
+    line-height: 20px;
+    padding: 5px 3px;
+    vertical-align: top;
+}
+.info-table td.vmiddle {
+    border-left: 1px solid #ddd;
+    vertical-align: middle;
+}
+.info-table .textleft {
+    padding-left: 10px;
+    text-align: left;
+}
+.info-table .textright {
+    padding-right: 10px;
+    text-align: right;
+}
+.order-tab {
+    border-bottom: 2px solid #51c3bb;
+    font: 14px/18px simsun;
+    height: 32px;
+    padding: 0 0 0 10px;
+}
+.order-tab:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.order-tab li {
+    background-color: #e9f8f7;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px 2px 0;
+    color: #39a89f;
+    cursor: pointer;
+    float: left;
+    margin-right: 5px;
+    padding: 5px 10px 7px;
+    position: relative;
+}
+.order-tab li em {
+    background: url("../img/sprite.png") no-repeat scroll -1px -473px rgba(0, 0, 0, 0);
+    height: 20px;
+    position: absolute;
+    right: -7px;
+    top: -10px;
+    width: 19px;
+    z-index: 1000;
+}
+.order-tab li:hover {
+    background-color: #fff;
+    border-color: #51c3bb #51c3bb #fff;
+    border-style: solid;
+    border-width: 2px;
+    color: #f60;
+    padding: 5px 10px 6px;
+    position: relative;
+    top: 1px;
+}
+.order-tab li.active {
+    background-color: #fff;
+    border-color: #51c3bb #51c3bb #fff;
+    border-style: solid;
+    border-width: 2px;
+    color: #065ccb;
+    cursor: default;
+    font-weight: 700;
+    padding: 5px 10px 6px;
+    position: relative;
+    top: 1px;
+}
+.status-tab {
+    border-bottom: 1px solid #ccc;
+    height: 28px;
+    padding: 0 0 0 18px;
+    position: relative;
+}
+.status-tab:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.status-tab li {
+    border-color: #ccc #ccc #fff;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    color: #51c3bb;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+    margin-top: 1px;
+    padding: 5px 20px 7px;
+}
+.status-tab li:hover {
+    background-color: #fff;
+    border-color: #ccc #ccc #fff;
+    border-style: solid;
+    border-width: 1px;
+    color: #f60;
+    padding: 5px 20px 6px;
+    top: 0;
+}
+.status-tab li.active {
+    background-color: #fff;
+    border-color: #ccc #ccc #fff;
+    border-style: solid;
+    border-width: 1px;
+    color: #666;
+    cursor: default;
+    font-weight: 700;
+    padding: 5px 20px 6px;
+    top: 0;
+}
+.status-tab li i {
+    color: #f00;
+    font-style: normal;
+}
+.status-tab span {
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    margin-top: 8px;
+    padding-left: 50px;
+    position: absolute;
+    right: 5px;
+}
+.order-table {
+    font-family: "宋体";
+    text-align: center;
+}
+.order-table .table-header {
+    background-color: #f7fdfb;
+    border-bottom: 1px solid #d2dfdf;
+    border-top: 1px solid #d2dfdf;
+}
+.order-table tr:hover {
+    background-color: #f7f7f7;
+}
+.order-table th {
+    background-color: #f7fdfb;
+    border-bottom: 1px solid #d2dfdf;
+    border-top: 1px solid #d2dfdf;
+    font-weight: normal;
+    padding: 9px 4px;
+}
+.order-table td {
+    border-bottom: 1px solid #dadada;
+    line-height: 18px;
+    padding: 6px 4px;
+    vertical-align: top;
+}
+.order-table td b {
+}
+.order-table td em {
+    color: #999;
+}
+.order-table .textleft {
+    text-align: left;
+}
+.btn {
+    display: inline-block;
+    line-height: 22px;
+    vertical-align: middle;
+}
+.btn span {
+    background: url("../img/bg_pop_a.png") no-repeat scroll 0 -20px rgba(0, 0, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: 22px;
+    margin-right: 10px;
+    margin-top: 3px;
+    overflow: hidden;
+    padding: 0 0 0 5px;
+}
+.btn b {
+    background: url("../img/bg_pop_a.png") no-repeat scroll 100% -50px rgba(0, 0, 0, 0);
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 22px;
+    padding: 0 12px 0 7px;
+    white-space: nowrap;
+}
+.btn a:hover {
+    text-decoration: none;
+}
+.btn:hover span {
+    background-position: 0 -85px;
+    color: #fff;
+}
+.btn:hover b {
+    background-position: 100% -115px;
+}
+.btn-add {
+    background: url("../img/sprite.png") no-repeat scroll -1px -638px #999;
+    border: medium none;
+    color: #fff;
+    height: 22px;
+    line-height: 22px;
+    width: 52px;
+}
+.btn-add:hover {
+    background-color: #f60;
+}
+.btn-primary {
+    display: inline-block;
+    line-height: 22px;
+    vertical-align: middle;
+}
+.btn-primary span {
+    background: url("../img/bg_pop_a.png") no-repeat scroll 0 -345px rgba(0, 0, 0, 0);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    height: 22px;
+    margin-right: 10px;
+    padding: 0 0 0 5px;
+}
+.btn-primary b {
+    background: url("../img/bg_pop_a.png") no-repeat scroll 100% -375px rgba(0, 0, 0, 0);
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 22px;
+    padding: 0 12px 0 7px;
+    white-space: nowrap;
+}
+.btn-primary:hover span {
+    background-position: 0 -410px;
+}
+.btn-primary:hover b {
+    background-position: 100% -440px;
+}
+.note {
+    margin: 0 auto 5px;
+    width: 98%;
+}
+.note li {
+    line-height: 20px;
+    padding-left: 20px;
+}
+.ico-no {
+    background-image: url("../img/sprite.png");
+    background-position: left -63px;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+}
+.current-info {
+    background: url("../img/dotline.gif") repeat-x scroll left bottom transparent;
+    margin: 10px auto;
+    padding: 10px 0;
+    vertical-align: top;
+    width: 98%;
+}
+.divtop {
+    background-color: #f7fcff;
+    border: 1px solid #000000;
+    color: black;
+    display: none;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 6px;
+    position: absolute;
+    text-align: left;
+    top: 1520px;
+    width: 300px;
+    z-index: 9;
+}
+.codecss {
+    color: #ceefff;
+}
+.condition {
+    width: 800px;
+}
+.condition li {
+    float: left;
+    margin: 5px 0;
+}
+.condition li label {
+    display: inline-block;
+    padding-right: 5px;
+    text-align: right;
+    width: 70px;
+}
+.condition li span {
+    display: inline-block;
+    width: 120px;
+}
+.seat {
+    padding: 5px 0;
+}
+.seat b {
+    color: #333;
+    display: inline-block;
+    font-weight: normal;
+    width: 60px;
+}
+.control {
+    line-height: 20px;
+    margin: 5px 0;
+}
+.control-btn {
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 30px;
+    line-height: 20px;
+    padding: 5px;
+}
+.cp {
+    background: none repeat scroll 0 0 #ffffeb;
+    border: 1px solid #fbd5a7;
+    margin-top: -1px;
+    padding: 5px;
+    position: relative;
+    text-align: right;
+}
+.arrow {
+    background: url("../img/sprite.gif") no-repeat scroll -104px -29px rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 19px;
+    position: absolute;
+    right: 5px;
+    top: -10px;
+    width: 32px;
+}
+.cp-talklist {
+    float: left;
+    height: 150px;
+    overflow: auto;
+    text-align: left;
+    width: 50%;
+}
+.cp-talklist ul li {
+    width: 400px;
+}
+.cp-talklist ul li label {
+    display: block;
+    float: left;
+    line-height: 20px;
+    padding: 0;
+    text-align: right;
+    width: 38%;
+}
+.cp-talklist ul li span {
+    display: block;
+    float: left;
+    line-height: 20px;
+    width: 62%;
+}
+.cp-talk {
+    float: left;
+    padding-left: 5px;
+    text-align: left;
+    width: 25%;
+}
+.jianju {
+    float: right;
+}
+.cp-btn {
+    float: right;
+    width: 24%;
+}
+.cp-list {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #e4e4e4 #e4e4e4 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+}
+.cp-list-tit {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #f5f5f5;
+    line-height: 24px;
+    padding-left: 5px;
+}
+.contact-main {
+    margin: 40px auto 30px;
+    position: relative;
+}
+.contact-main1 {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 780px;
+}
+.msg-left {
+    float: left;
+    height: 95%;
+    margin-left: 10px;
+    width: 52%;
+}
+.contact-ul {
+}
+.contact-ul li {
+}
+.contact-ul i {
+    font-style: normal;
+}
+.contact-ul label {
+    display: inline-block;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 10px;
+    padding-right: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+.contact-ul label i {
+    font-weight: 100;
+}
+.contact-ul li span {
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    max-width: 500px;
+    vertical-align: top;
+}
+.contact-ul li span span {
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    max-width: 500px;
+    vertical-align: top;
+}
+.msg-right {
+    float: right;
+    margin-right: 5px;
+    margin-top: 40px;
+    width: 44%;
+}
+.set-table1 {
+    border: 0 none;
+    margin-left: -2px;
+    width: 500px;
+}
+.set-table1 tr {
+    margin: 0;
+    padding: 0;
+}
+.set-table1 tr td {
+    margin: 0;
+}
+.ul li span tr td {
+    width: 100px;
+}
+.width {
+    height: 100%;
+    width: 100%;
+}
+.yemian {
+    margin-left: 365px;
+}
+.pagenow {
+    margin-left: 387px;
+}

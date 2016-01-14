@@ -1,0 +1,430 @@
+﻿
+@charset "utf-8";
+dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, em, b, i, ins, del {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ins, del {
+    text-decoration: none;
+}
+fieldset, img {
+    border: medium none;
+}
+address, caption, cite, code, dfn, em, strong, th, var, b, i {
+    font-style: normal;
+    font-weight: normal;
+}
+ul, li {
+    list-style: none outside none;
+}
+caption, th {
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+q:before, q:after {
+    content: "";
+}
+hr {
+    border-top: 1px solid #e4e4e4;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
+abbr, acronym {
+    border: 0 none;
+    font-variant: normal;
+}
+sup {
+    vertical-align: text-top;
+}
+sub {
+    vertical-align: text-bottom;
+}
+legend {
+    color: #000;
+}
+a {
+    color: #0098c6;
+    text-decoration: none;
+}
+a:hover {
+    color: #0098c6;
+    text-decoration: underline;
+}
+form {
+    margin: 0;
+}
+button {
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 12px;
+}
+.top_bg {
+    background-color: #edf2f8;
+    border-bottom: 1px solid #c6d7e6;
+    height: 24px;
+}
+.icon9 {
+    background-image: url("../images/ASC.GIF");
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 0;
+    height: 4px;
+    width: 7px;
+}
+.icon10 {
+    background-image: url("../images/DESC.GIF");
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-size: 0;
+    height: 4px;
+    width: 8px;
+}
+.margin10 {
+    color: #999999;
+}
+.top_left, .top_right {
+    display: inline;
+    float: left;
+}
+.top_right {
+    margin-top: 0;
+}
+.top_right {
+    float: right;
+    width: 100%;
+}
+.top_right dd {
+    float: right;
+    padding-top: 2px;
+}
+.top_right dt {
+    color: #409040;
+    float: right;
+    margin-top: 7px;
+    text-align: right;
+    width: 100%;
+}
+.top_right ul {
+    float: right;
+}
+.top_right li {
+    float: left;
+    margin: 0 4px;
+}
+.top_right li a {
+    border: 0 none;
+    float: left;
+}
+.top_right li b {
+    float: left;
+    margin: 6px 0 0 2px;
+    padding: 0;
+}
+.top_nav {
+    background-color: #fff;
+    border: 1px solid #64ace9;
+    display: none;
+    left: -5px;
+    position: absolute;
+    top: 18px;
+    z-index: 6000;
+}
+.top_nav div {
+    border: 1px solid #fff;
+    overflow: hidden;
+    padding: 2px 0 2px 5px;
+    position: relative;
+    width: 100px;
+}
+.top_nav h2 b {
+    height: 4px;
+    overflow: hidden;
+}
+.top_nav h2 a {
+    height: 16px;
+    overflow: hidden;
+}
+.top_nav_hover {
+    background-color: #c2e4ff;
+}
+.top_nav a:hover {
+    text-decoration: none;
+}
+.top_nav h2 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #64ace9 #64ace9 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    height: 14px;
+    left: -1px;
+    padding: 5px;
+    position: absolute;
+    top: -25px;
+    width: 65px;
+}
+.exit_btn {
+    background-color: #ffffee;
+    border: 1px dashed #ff9900;
+    color: #ff9900;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    width: 60px;
+}
+.newtop_banner {
+    background-image: url("../img/top1_bg.gif");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    height: 70px;
+    width: 100%;
+}
+.newtop_top {
+    height: 66px;
+    padding-top: 0;
+}
+.comname {
+    color: #006699;
+    float: left;
+    font-family: '微软雅黑',Verdana;
+    font-size: 26px;
+    line-height: 40px;
+    padding-left: 10px;
+    width: 300px;
+}
+.pro_ul {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.pro_ul li {
+    background-color: #18b7f9;
+    float: right;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 3px;
+    position: relative;
+    text-align: center;
+    width: 96px;
+}
+.pro_ul li:hover {
+    background-color: #06abf2;
+}
+.pro_ul li em {
+    background: url("../img/bg_pop_a.png") no-repeat scroll -28px -21px rgba(0, 0, 0, 0);
+    display: block;
+    height: 20px;
+    left: -130px;
+    position: absolute;
+    top: 3px;
+    width: 125px;
+}
+.pro_ul li b {
+    display: block;
+    height: 20px;
+    position: absolute;
+    right: -8px;
+    top: -13px;
+    width: 19px;
+}
+.pro_ul li a {
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    line-height: 25px;
+    text-decoration: none;
+}
+.pro_ul li a:hover {
+    text-decoration: underline;
+}
+.left_body {
+    background-color: #f7fcff;
+    margin: 0;
+}
+.Test5study {
+    background: none repeat scroll 0 0 #f7fcff;
+}
+.Test5study {
+    background-color: #f7fcff;
+    border: 1px solid #a1e0ff;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 172px;
+}
+.Test5study h2 {
+    background-color: #e7f3ff;
+    border-bottom: 1px solid #a1e0ff;
+    border-color: #a1e0ff;
+    border-width: 1px;
+    color: #2e4456;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 0;
+    position: relative;
+    text-align: left;
+    text-indent: 10px;
+    width: 174px;
+}
+.Test5study h2 span {
+    font-weight: normal;
+    position: absolute;
+    right: 6px;
+    top: 0;
+}
+.Test5study li {
+    list-style-type: none;
+    padding-left: 20px;
+}
+.Test5study li a:link {
+    padding-left: 1px;
+    text-decoration: none;
+}
+.Test5study li a:visited {
+    padding-left: 1px;
+    text-decoration: none;
+}
+.Test5study li a:hover {
+    color: #cc0000;
+    font-weight: bold;
+    padding-left: 1px;
+    text-decoration: underline;
+}
+.Test5study li a:active {
+    color: #cc0000;
+    font-weight: bold;
+    padding-left: 1px;
+    text-decoration: underline;
+}
+.Test5study {
+}
+.TxtList {
+    font-size: 12px;
+    line-height: 150%;
+    list-style-type: none;
+    margin: 6px 10px 6px 1px;
+    text-align: left;
+}
+.list {
+    height: auto;
+    padding-left: 1px;
+    width: 148px;
+}
+.menu_ico_01 {
+    background-image: url("../images/mu_ico_01.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 28px;
+    width: 40px;
+}
+.menu_ico_02 {
+    background-image: url("../images/mu_ico_02.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 28px;
+    width: 40px;
+}
+.menu_ico_03 {
+    background-image: url("../images/mu_ico_03.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 28px;
+    width: 40px;
+}
+.menu_ico_04 {
+    background-image: url("../images/mu_ico_04.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 28px;
+    width: 40px;
+}
+.menu_ico_05 {
+    background-image: url("../images/mu_ico_05.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 28px;
+    width: 40px;
+}
+.menu_ico_06 {
+    background-image: url("../images/mu_ico_06.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 28px;
+    width: 40px;
+}
+.menu_ico_07 {
+    background-image: url("../images/mu_ico_07.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 28px;
+    width: 40px;
+}
+.menu_ico_08 {
+    background-image: url("../images/mu_ico_08.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 28px;
+    width: 40px;
+}
+.menu_ico_09 {
+    background-image: url("../images/mu_ico_09.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 28px;
+    width: 40px;
+}
+.menu_ico_10 {
+    background-image: url("../images/mu_ico_10.gif");
+    background-position: right center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 28px;
+    width: 40px;
+}
+.menu_ico_text {
+    float: left;
+    padding-top: 0;
+}
+.box_left {
+    float: left;
+    width: 60%;
+}
+.box_right {
+    float: left;
+    width: 40%;
+}
+.box_contact {
+    line-height: 45px;
+}

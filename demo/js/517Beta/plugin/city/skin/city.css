@@ -1,0 +1,140 @@
+
+#popCity {
+    width: 331px;
+    border: 2px solid #93DCFF;
+    font-size: 12px;
+    float: left;
+    position: absolute;
+    padding: 0px;
+    background: #ffffff;
+}
+
+#popCity_head {
+    background: #93DCFF;
+    color: #ffffff;
+    width: 331px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 10px;
+}
+
+#popCity_title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#popCity_title ul {
+    line-height: 24px;
+    height: 24px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#popCity_title li {
+    float: left;
+    padding: 0 4px;
+    line-height: 24px;
+    height: 24px;
+    /*border-bottom: 1px solid #CCCCCC;*/
+    cursor: pointer;
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+    vertical-align: middle;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#popCity_title li.active {
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #ffffff;
+    background: #ffffff;
+    color: orange;
+    font-weight: bold;
+}
+
+#popCity_content {
+    float: left;
+    padding: 0px;
+}
+
+.popCity_Content_Content {
+    padding: 0px;
+    float: left;
+}
+
+.popCity_Content_Content b{
+    width: 15px;
+    float: left;
+    display: block;
+    margin-left: 5px;
+    height: 25px;
+    line-height: 25px;
+    color: orange;
+    font-weight: bold;
+}
+.popCity_Content_Content div{
+    width: 300px;
+    display: inline;
+    float: left;
+    min-height:25px;
+    _height:25px;
+    padding: 0px;
+    margin: 0px;
+}
+.popCity_Content_Content a {
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    float: left;
+    overflow: hidden;
+    font-weight: 400;
+    text-align: center;
+}
+
+.popCity_Content_Content a:hover {
+    background: #DBD8D8;
+}
+
+.popCity-hide {
+    display: none;
+}
+
+#resultCity {
+    width: 150px;
+    border: 2px solid #93DCFF;
+    padding: 2px;
+    background: #ffffff;
+}
+
+#resultCity ul {
+    list-style: none;
+    padding: 0px;
+    margin: 2px;
+    width: 150px;
+}
+
+#resultCity ul li {
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#resultCity ul li:hover {
+    background: #DBD8D8;
+}
+
+#resultCity ul li.selected {
+    background: #DBD8D8;
+}
+
+.popCity_Content_Content .clear{ clear: both; min-height:0px;  line-height: 0px; height: 0px;
+    _height:0px;}

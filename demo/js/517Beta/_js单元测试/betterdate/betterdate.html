@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QUnit Example</title>
+  <link rel="stylesheet" href="../qunit/qunit-1.11.0.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div> 
+  <script src="../qunit/qunit-1.11.0.js"></script>
+  <script src="../qunit/jquery-1.7.2.min.js"></script>
+  <script src="betterdate.js"></script>
+  <script type="text/javascript">
+	test("basics", function() {
+		equal( exports.compareDate({
+			startDate:"2015-10-10",
+			endDate:"2015-10-15",
+			compareType:"m",
+			crossNum:2,
+			keyWords:"出票"
+		}), "", "" );
+	});
+	
+	test("basics", function() {
+	equal( exports.compareDate({
+		startDate:"2015-11-10",
+		endDate:"2015-10-15",
+		compareType:"m",
+		crossNum:2,
+		keyWords:"出票"
+	}), "出票开始日期不能大于结束日期！", "" );
+	});
+	
+	test("basics", function() {
+		equal( exports.compareDate({
+		startDate:"2015-11-10",
+		endDate:"2016-10-15",
+		compareType:"m",
+		crossNum:2,
+		keyWords:"出票"
+	}), "出票查询时间不能跨2月!", "" );
+	});
+	
+	test("basics", function() {
+		equal( exports.compareDate({
+		startDate:"2015-11-10",
+		endDate:"2019-10-15",
+		compareType:"y",
+		crossNum:2,
+		keyWords:"出票"
+	}), "出票查询时间不能跨2年!", "" );
+	});
+	
+  </script>
+</body>
+</html>

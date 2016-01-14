@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta   charset="utf-8" />
+	<title>无标题文档</title>
+	<link href="./css/public.css" rel="stylesheet"/>
+	<link href="./css/list.css" rel="stylesheet"/>
+	<link href="./css/detail.css" rel="stylesheet"/>
+	<link href="./js/517Beta/plugin/select/skin/select.css" rel="stylesheet" />
+	<script src="./js/517Beta/jquery-1.7.2.min.js"></script>
+	<script src="./js/517Beta/sea.better-1.0.0.min.js"></script>
+	<script src="./js/517Beta/plugin/select/select.js"></script>
+	<script src="./js/staffData.js"></script>
+	<script type="text/javascript">seajs.use(["./js/my.js"]); </script>
+</head>
+
+<body>
+	<div class="nav-url">
+		首页 <em>&gt;&gt;</em>
+		风控设置 <em>&gt;&gt;</em>
+		卖家黑名单管理
+		<em>&gt;&gt;</em>
+		修改
+	</div>
+
+	<div class="module" id="main">
+		<ul class="set-info">
+			<li>
+				<div class="set-name"> <b class="textwarning">*</b>
+					卖家ID：
+				</div>
+				<div>
+					<input type="text" class="w200" name="buyerID" disabled>
+					<a id="selBtn" style="color:#fff" class="btn-submit" onClick="viewHtml5();"  href="javascript:;">
+						<span> <b>选择</b>
+						</span>
+					</a>
+				</div>
+			</li>
+			<li>
+				<div class="set-name">卖家账号：</div>
+				<div>
+					<input type="text" name="buyerAccount" class="w200" disabled></div>
+			</li>
+			<li>
+				<div class="set-name">卖家名称：</div>
+				<div>
+					<input type="text" name="buyerName" class="w200" value="" disabled></div>
+			</li>
+			<li>
+				<div class="set-name">供应分类：</div>
+				<div>
+					<select class="w120" name="type">
+						<option>问题供应商</option>
+						<option>倒闭供应商</option>
+					</select>
+				</div>
+			</li>
+
+			<li>
+				<div class="set-name">
+					<b class="textwarning">*</b>
+					生效日期：
+				</div>
+				<div>
+					<input type="text" name="addTime" class="w100" value="2015-06-15"></div>
+			</li>
+			<li>
+				<div class="set-name">
+					<b class="textwarning">*</b>
+					失效日期：
+				</div>
+				<div>
+					<input type="text" name="endTime" class="w100" value="2015-06-15"></div>
+			</li>
+
+		</ul>
+
+		<ul class="set-info"  id="rg" style="display:blank;">
+
+			<li>
+				<div class="set-name">
+					<b class="textwarning">*</b>
+					添加理由：
+				</div>
+				<div>
+					<textarea name="reason" style="width:280px; height:120px; resize:none; overflow-y:scroll;"></textarea>
+				</div>
+			</li>
+		</ul>
+		<div id="chonger" style="margin-left:100px;width:100px;">chonger is SB?</div>
+		<input type="file" id="testImg" value="选择图片" />
+		<img id="img1" style="width:200px;height:300px;">
+		<img id="img2" style="width:200px;height:300px;">
+		<img class="img3" style="width:200px;height:300px;"></div>
+	国际：
+	<input type="text" id="bCity" style="width:200px;">
+	国内：
+	<input type="text" id="city" style="width:200px;">
+	<div id="areas"></div>
+	<div style="width:1000px;height:200px;margin-top:30px;margin-left:200px;border:solid 1px #ccc;padding-top:30px;padding-left:20px;" id="filter" ></div>
+	自动补全：
+	<input type="text" style="width:200px;" id="autoComplete" />
+	下拉框：
+	<select id="select" style="margin-left:560px">
+		<option value="0">0</option>
+		<option value="1">1</option>
+	</select>
+	<select id="select1" style="margin-left:160px;width:400px;">
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+	</select>
+	<div class="btn-area">
+		<input name="submit" type="submit" class="btn-submit" id="saveBtn" value="保  存" />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input name="submit" type="submit" class=" btn-cancel" onClick="history.back(-1)"  value="返  回" />
+	</div>
+	<script type="text/javascript">
+		$("#select").change(function(){
+			var value=$(this).val();
+			if(value==1){
+				alert(1);
+			}
+		})
+		$("#select").creatSelect();
+		$("#select1").creatSelect();
+
+	</script>
+</body>
+</html>

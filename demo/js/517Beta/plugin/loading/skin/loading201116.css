@@ -1,0 +1,30 @@
+﻿.jian_load_bg0
+{
+    background: #fff url(images/spinner_32w.gif) 50% center no-repeat;
+}
+.jian_load_bg1
+{
+     background:url(images/loadImg1.gif) 50% center #fff no-repeat;
+    background-color:rgba(255,255,255,0.5)!important; 
+    filter:alpha(opacity=50);  
+    *filter:alpha(opacity=50); 
+}
+
+.jian_load_bg2
+{
+    background:url(images/xubox_loading1.gif) 50% center #fff no-repeat;
+    background-color:rgba(255,255,255,0.5)!important; 
+    filter:alpha(opacity=50);  
+    *filter:alpha(opacity=50); 
+}
+
+.jian_load_bg4
+{
+    background:url(images/xubox_loading5.gif) 50% center #fff no-repeat;
+    background-color:rgba(255,255,255,0.5)!important;  
+}
+
+.jian_load_bg3
+{
+    background:  #F7FBFD url(images/spinner_32w.gif) 50% center no-repeat;
+}

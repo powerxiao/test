@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<title>Bootstrap 101 Template</title>
+
+	<!-- Bootstrap -->
+	<link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet">
+	<style>
+		@media (min-width: @screen-sm-min) {  }
+
+		/* 中等屏幕（桌面显示器，大于等于 992px） */
+		@media (min-width: @screen-md-min) {  }
+
+		/* 大屏幕（大桌面显示器，大于等于 1200px） */
+		@media (min-width: @screen-lg-min) {  }
+	</style>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<h1>你好，世界！</h1>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-1">.col-md-1</div>
+			<div class="col-xs-1">.col-md-1</div>
+			<div class="col-xs-1">.col-md-1</div>
+			<div class="col-xs-1">.col-md-1</div>
+			<div class="col-xs-1">.col-md-1</div>
+			<div class="col-xs-1">.col-md-1</div>
+			<div class="col-xs-1">.col-md-1</div>
+			<div class="col-xs-1">.col-md-1</div>
+			<div class="col-xs-1">.col-md-1</div>
+			<div class="col-xs-1">.col-md-1</div>
+			<div class="col-xs-1">.col-md-1</div>
+			<div class="col-xs-1">.col-md-1</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-lg-3">.col-lg-3</div>
+			<div class="col-xs-4 col-lg-9">.col-lg-9</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4">.col-md-4</div>
+			<div class="col-xs-4">.col-md-4</div>
+			<div class="col-xs-4">.col-md-4</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-6">.col-md-6</div>
+			<div class="col-xs-6">.col-md-6</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<ul class="breadcrumb">
+				<li>
+					<a href="#">主页</a> <span class="divider">/</span>
+				</li>
+				<li>
+					<a href="#">类目</a> <span class="divider">/</span>
+				</li>
+				<li class="active">
+					主题
+				</li>
+			</ul>
+			<div class="navbar">
+				<div class="navbar-inner">
+					<div class="container-fluid">
+						 <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a> <a href="#" class="brand">网站名</a>
+						<div class="nav-collapse collapse navbar-responsive-collapse">
+							<ul class="nav">
+								<li class="active">
+									<a href="#">主页</a>
+								</li>
+								<li>
+									<a href="#">链接</a>
+								</li>
+								<li>
+									<a href="#">链接</a>
+								</li>
+								<li class="dropdown">
+									 <a data-toggle="dropdown" class="dropdown-toggle" href="#">下拉菜单<strong class="caret"></strong></a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">下拉导航1</a>
+										</li>
+										<li>
+											<a href="#">下拉导航2</a>
+										</li>
+										<li>
+											<a href="#">其他</a>
+										</li>
+										<li class="divider">
+										</li>
+										<li class="nav-header">
+											标签
+										</li>
+										<li>
+											<a href="#">链接1</a>
+										</li>
+										<li>
+											<a href="#">链接2</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<ul class="nav pull-right">
+								<li>
+									<a href="#">右边链接</a>
+								</li>
+								<li class="divider-vertical">
+								</li>
+								<li class="dropdown">
+									 <a data-toggle="dropdown" class="dropdown-toggle" href="#">下拉菜单<strong class="caret"></strong></a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">下拉导航1</a>
+										</li>
+										<li>
+											<a href="#">下拉导航2</a>
+										</li>
+										<li>
+											<a href="#">其他</a>
+										</li>
+										<li class="divider">
+										</li>
+										<li>
+											<a href="#">链接3</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+			 <a id="modal-282166" href="#modal-container-282166" role="button" class="btn" data-toggle="modal">触发遮罩窗体</a>
+			
+			<div id="modal-container-282166" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-header">
+					 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					<h3 id="myModalLabel">
+						标题栏
+					</h3>
+				</div>
+				<div class="modal-body">
+					<p>
+						显示信息
+					</p>
+				</div>
+				<div class="modal-footer">
+					 <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button> <button class="btn btn-primary">保存设置</button>
+				</div>
+			</div>
+			<div class="accordion" id="accordion-385146">
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						 <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion-385146" href="#accordion-element-179278">选项卡 #1</a>
+					</div>
+					<div id="accordion-element-179278" class="accordion-body collapse">
+						<div class="accordion-inner">
+							功能块...
+						</div>
+					</div>
+				</div>
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-385146" href="#accordion-element-443462">选项卡 #2</a>
+					</div>
+					<div id="accordion-element-443462" class="accordion-body collapse">
+						<div class="accordion-inner">
+							功能块...
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="btn-group">
+				 <button class="btn">Action</button> <button data-toggle="dropdown" class="btn dropdown-toggle"><span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="#">操作</a>
+					</li>
+					<li>
+						<a href="#">设置栏目</a>
+					</li>
+					<li>
+						<a href="#">更多设置</a>
+					</li>
+					<li class="divider">
+					</li>
+					<li class="dropdown-submenu">
+						 <a tabindex="-1" href="#">更多选项</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">操作</a>
+							</li>
+							<li>
+								<a href="#">设置栏目</a>
+							</li>
+							<li>
+								<a href="#">更多设置</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<ul class="breadcrumb">
+				<li>
+					<a href="#">主页</a> <span class="divider">/</span>
+				</li>
+				<li>
+					<a href="#">类目</a> <span class="divider">/</span>
+				</li>
+				<li class="active">
+					主题
+				</li>
+			</ul> <span class="badge">1</span>
+			<h2>
+				标题
+			</h2>
+			<p>
+				本可视化布局程序在HTML5浏览器上运行更加完美, 能实现自动本地化保存, 即使关闭了网页, 下一次打开仍然能恢复上一次的操作.
+			</p>
+			<p>
+				<a class="btn" href="#">查看更多 »</a>
+			</p>
+			<div class="progress">
+				<div class="bar">
+				</div>
+			</div>
+			<div class="media">
+				 <a href="#" class="pull-left"><img src="img/a_002.jpg" class="media-object" alt='' /></a>
+				<div class="media-body">
+					<h4 class="media-heading">
+						嵌入媒体标题
+					</h4> 请尽量使用HTML5兼容的视频格式和视频代码实现视频播放, 以达到更好的体验效果.
+				</div>
+			</div> <span class="badge">2</span>
+			<ul class="thumbnails">
+				<li class="span4">
+					<div class="thumbnail">
+						<img alt="300x200" src="img/people.jpg" />
+						<div class="caption">
+							<h3>
+								冯诺尔曼结构
+							</h3>
+							<p>
+								也称普林斯顿结构，是一种将程序指令存储器和数据存储器合并在一起的存储器结构。程序指令存储地址和数据存储地址指向同一个存储器的不同物理位置。
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">浏览</a> <a class="btn" href="#">分享</a>
+							</p>
+						</div>
+					</div>
+				</li>
+				<li class="span4">
+					<div class="thumbnail">
+						<img alt="300x200" src="img/city.jpg" />
+						<div class="caption">
+							<h3>
+								哈佛结构
+							</h3>
+							<p>
+								哈佛结构是一种将程序指令存储和数据存储分开的存储器结构，它的主要特点是将程序和数据存储在不同的存储空间中，进行独立编址。
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">浏览</a> <a class="btn" href="#">分享</a>
+							</p>
+						</div>
+					</div>
+				</li>
+				<li class="span4">
+					<div class="thumbnail">
+						<img alt="300x200" src="img/sports.jpg" />
+						<div class="caption">
+							<h3>
+								改进型哈佛结构
+							</h3>
+							<p>
+								改进型的哈佛结构具有一条独立的地址总线和一条独立的数据总线，两条总线由程序存储器和数据存储器分时复用，使结构更紧凑。
+							</p>
+							<p>
+								<a class="btn btn-primary" href="#">浏览</a> <a class="btn" href="#">分享</a>
+							</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="page-header">
+				<h1>
+					页标题范例 <small>此处编写页标题</small>
+				</h1>
+			</div>
+			<div class="hero-unit">
+				<h1>
+					Hello, world!
+				</h1>
+				<p>
+					这是一个可视化布局模板, 你可以点击模板里的文字进行修改, 也可以通过点击弹出的编辑框进行富文本修改. 拖动区块能实现排序.
+				</p>
+				<p>
+					<a class="btn btn-primary btn-large" href="#">参看更多 »</a>
+				</p>
+			</div>
+			<h3 class="text-center">
+				h3. 这是一套可视化布局系统.
+			</h3>
+			<div class="alert">
+				 <button type="button" class="close" data-dismiss="alert">×</button>
+				<h4>
+					提示!
+				</h4> <strong>警告!</strong> 请注意你的个人隐私安全.
+			</div>
+			<div class="btn-group">
+				 <button class="btn" type="button"><em class="icon-align-left"></em></button> <button class="btn" type="button"><em class="icon-align-center"></em></button> <button class="btn" type="button"><em class="icon-align-right"></em></button> <button class="btn" type="button"><em class="icon-align-justify"></em></button>
+			</div>
+			<div class="pagination">
+				<ul>
+					<li>
+						<a href="#">上一页</a>
+					</li>
+					<li>
+						<a href="#">1</a>
+					</li>
+					<li>
+						<a href="#">2</a>
+					</li>
+					<li>
+						<a href="#">3</a>
+					</li>
+					<li>
+						<a href="#">4</a>
+					</li>
+					<li>
+						<a href="#">5</a>
+					</li>
+					<li>
+						<a href="#">下一页</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="span2">
+			<div class="accordion" id="accordion-101001">
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-101001" href="#accordion-element-22736">选项卡 #1</a>
+					</div>
+					<div id="accordion-element-22736" class="accordion-body collapse">
+						<div class="accordion-inner">
+							功能块...
+						</div>
+					</div>
+				</div>
+				<div class="accordion-group">
+					<div class="accordion-heading">
+						 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-101001" href="#accordion-element-950585">选项卡 #2</a>
+					</div>
+					<div id="accordion-element-950585" class="accordion-body in collapse">
+						<div class="accordion-inner">
+							功能块...
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="span10">
+		</div>
+	</div>
+</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.js"></script>
+	<script type="text/javascript">
+	$("body").click(function(){
+		alert(1);
+	})
+	</script>
+</body>
+</html>

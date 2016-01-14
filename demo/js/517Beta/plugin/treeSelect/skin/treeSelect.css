@@ -1,0 +1,152 @@
+.deptPlug_modi {
+    padding: 6px 8px;
+    background: #116af1;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: "Microsoft YaHei";
+}
+
+*:focus {
+    outline: none;
+}
+
+.deptPlug_dataWrap {
+    background-color: #369;
+    color: #9BD4D6;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: default;
+    display: inline-block;
+    margin-right: 5px;
+    overflow: hidden;
+    line-height: 15px;
+    padding: 12px 13px 12px 19px;
+    position: relative;
+    vertical-align: middle;
+    border-top: 2px solid #23507C;
+    border-bottom: 2px solid #23507C;
+    width: 200px;
+}
+
+.deptPlug_topWrap {
+    border-radius: 8px 8px 0 0;
+    background-color: #CDD5CB;
+    color: #333;
+    font-size: 14px;
+    cursor: default;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    line-height: 15px;
+    padding: 12px 13px 12px 9px;
+    position: relative;
+    vertical-align: middle;
+    width: 210px;
+    font-family: "Microsoft YaHei",Verdana, Arial, Helvetica, AppleGothic, sans-serif;
+}
+
+.deptPlug_searchWrap {
+    border-radius: 4px 4px 4px 4px;
+    color: #fff;
+    font-size: 14px;
+    cursor: default;
+    display: inline-block;
+    margin-bottom: 0px;
+    overflow: hidden;
+    line-height: 15px;
+    position: relative;
+    vertical-align: middle;
+    width: 220px;
+    border: solid 1px #ccc;
+}
+
+    .deptPlug_searchWrap input {
+        padding: 8px;
+        border: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        font-family: "Microsoft YaHei";
+    }
+
+.deptPlug_remove-link {
+    bottom: 0;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px 12px 12px 0;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    text-decoration: none;
+    top: 0;
+    width: 10%;
+    z-index: 2;
+    opacity: 90;
+}
+
+.deptPlug_topBackGround {
+    border-radius: 4px 4px 0 0;
+    background: #CDD5CB url(images/delete4.png) 50% center no-repeat;
+}
+
+    .deptPlug_topBackGround:hover {
+        background-color: #B5C2B2;
+        border-radius: 0 4px 4px 0;
+    }
+
+.deptPlug_dataBackGround {
+    background: #369 url(images/delete5.png) 50% center no-repeat;
+}
+
+    .deptPlug_dataBackGround:hover {
+        background-color: #224E79;
+    }
+
+.deptPlug_searchBackGround {
+    background: url(images/search1.png) 50% center no-repeat;
+}
+
+.deptPlug_searchBackGround {
+    background-color: #F1F1F1;
+}
+
+    .deptPlug_searchBackGround:hover {
+        background-color: #F5EDED;
+    }
+
+
+.deptPlug_wrap {
+    border-radius: 0 0 4px 4px;
+    width: 254px;
+    height: 215px;
+    margin-top: 0px;
+    position: absolute;
+    overflow: auto;
+}
+
+.deptPlug_wrapFirst {
+    position: relative;
+    background-color: #7D9BB6;
+    width: 232px;
+    height: 258px;
+    border-radius: 8px 8px 4px 4px;
+    float: right;
+    margin-right: 20px;
+}
+
+.deptPlug_red {
+    color: rgb(16, 124, 29);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.deptPlug_loadBg {
+    background: url(images/load1.gif) 35% center no-repeat;
+}
+
+.xubox_main h2{
+	margin-top:0px;
+}
